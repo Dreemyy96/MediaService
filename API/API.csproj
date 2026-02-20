@@ -8,6 +8,11 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Common.Models\Common.Models.csproj" />
+      <ProjectReference Include="..\ServiceLayer\ServiceLayer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.13" />
     </ItemGroup>
 
 </Project>
