@@ -31,6 +31,9 @@
               "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\Common.Models.csproj": {
                 "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\Common.Models.csproj"
               },
+              "D:\\dbi_kovalevsky\\MediaService\\Media.Persistence\\Media.Persistence.csproj": {
+                "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Media.Persistence\\Media.Persistence.csproj"
+              },
               "D:\\dbi_kovalevsky\\MediaService\\ServiceLayer\\ServiceLayer.csproj": {
                 "projectPath": "D:\\dbi_kovalevsky\\MediaService\\ServiceLayer\\ServiceLayer.csproj"
               }
@@ -81,6 +84,67 @@
         }
       }
     },
+    "D:\\dbi_kovalevsky\\MediaService\\Common.Exception\\Common.Exception.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dbi_kovalevsky\\MediaService\\Common.Exception\\Common.Exception.csproj",
+        "projectName": "Common.Exception",
+        "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Common.Exception\\Common.Exception.csproj",
+        "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
+        "outputPath": "D:\\dbi_kovalevsky\\MediaService\\Common.Exception\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\koval\\.dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\Common.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -89,6 +153,270 @@
         "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\Common.Models.csproj",
         "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
         "outputPath": "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\koval\\.dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dbi_kovalevsky\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dbi_kovalevsky\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj",
+        "projectName": "Identity.Persistence",
+        "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj",
+        "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
+        "outputPath": "D:\\dbi_kovalevsky\\MediaService\\Identity.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dbi_kovalevsky\\MediaService\\IdentityCore\\IdentityCore.csproj": {
+                "projectPath": "D:\\dbi_kovalevsky\\MediaService\\IdentityCore\\IdentityCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\koval\\.dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dbi_kovalevsky\\MediaService\\IdentityCore\\IdentityCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dbi_kovalevsky\\MediaService\\IdentityCore\\IdentityCore.csproj",
+        "projectName": "IdentityCore",
+        "projectPath": "D:\\dbi_kovalevsky\\MediaService\\IdentityCore\\IdentityCore.csproj",
+        "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
+        "outputPath": "D:\\dbi_kovalevsky\\MediaService\\IdentityCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\koval\\.dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dbi_kovalevsky\\MediaService\\Media.Persistence\\Media.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dbi_kovalevsky\\MediaService\\Media.Persistence\\Media.Persistence.csproj",
+        "projectName": "Media.Persistence",
+        "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Media.Persistence\\Media.Persistence.csproj",
+        "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
+        "outputPath": "D:\\dbi_kovalevsky\\MediaService\\Media.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\dbi_kovalevsky\\MediaService\\MediaCore\\MediaCore.csproj": {
+                "projectPath": "D:\\dbi_kovalevsky\\MediaService\\MediaCore\\MediaCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\koval\\.dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dbi_kovalevsky\\MediaService\\MediaCore\\MediaCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dbi_kovalevsky\\MediaService\\MediaCore\\MediaCore.csproj",
+        "projectName": "MediaCore",
+        "projectPath": "D:\\dbi_kovalevsky\\MediaService\\MediaCore\\MediaCore.csproj",
+        "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
+        "outputPath": "D:\\dbi_kovalevsky\\MediaService\\MediaCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -166,8 +494,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "D:\\dbi_kovalevsky\\MediaService\\Common.Exception\\Common.Exception.csproj": {
+                "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Common.Exception\\Common.Exception.csproj"
+              },
               "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\Common.Models.csproj": {
                 "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\Common.Models.csproj"
+              },
+              "D:\\dbi_kovalevsky\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj": {
+                "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj"
               }
             }
           }

@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "WQXMo0kTwGI=",
+  "dgSpecHash": "L7jGwa9O50Y=",
   "success": true,
   "projectFilePath": "D:\\dbi_kovalevsky\\MediaService\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\9.0.13\\microsoft.aspnetcore.authentication.jwtbearer.9.0.13.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.13\\microsoft.entityframeworkcore.9.0.13.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.13\\microsoft.entityframeworkcore.abstractions.9.0.13.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.13\\microsoft.entityframeworkcore.analyzers.9.0.13.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.13\\microsoft.extensions.caching.abstractions.9.0.13.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.13\\microsoft.extensions.caching.memory.9.0.13.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.13\\microsoft.extensions.dependencyinjection.9.0.13.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.13\\microsoft.extensions.dependencyinjection.abstractions.9.0.13.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\microsoft.extensions.logging\\9.0.13\\microsoft.extensions.logging.9.0.13.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.13\\microsoft.extensions.logging.abstractions.9.0.13.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.extensions.options\\9.0.13\\microsoft.extensions.options.9.0.13.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.13\\microsoft.extensions.primitives.9.0.13.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
@@ -16,5 +24,15 @@
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.1\\system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "D:\\dbi_kovalevsky\\MediaService\\ServiceLayer\\ServiceLayer.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\dbi_kovalevsky\\MediaService\\ServiceLayer\\ServiceLayer.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

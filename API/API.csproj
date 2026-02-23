@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Common.Models\Common.Models.csproj" />
+      <ProjectReference Include="..\Media.Persistence\Media.Persistence.csproj" />
       <ProjectReference Include="..\ServiceLayer\ServiceLayer.csproj" />
     </ItemGroup>
 
