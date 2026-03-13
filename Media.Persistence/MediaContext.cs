@@ -12,4 +12,8 @@ public class MediaContext : DbContext
     public DbSet<ContentItem> Medias { get; set; }
     public DbSet<Comment> Comments { get; set; }
     public DbSet<Tag> Tags { get; set; }
+    public DbSet<MediaTag> MediaTags { get; set; }
+    public DbSet<UserMediaLike> UserMediaLike { get; set; }
+    public DbSet<UserSavedMedia> UserSavedMedia { get; set; }
+    public DbSet<UserViewHistory> UserViewHistory { get; set; }
 }

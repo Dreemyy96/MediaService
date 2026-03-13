@@ -10,6 +10,7 @@
       <ProjectReference Include="..\Common.Exception\Common.Exception.csproj" />
       <ProjectReference Include="..\Common.Models\Common.Models.csproj" />
       <ProjectReference Include="..\Identity.Persistence\Identity.Persistence.csproj" />
+      <ProjectReference Include="..\Media.Persistence\Media.Persistence.csproj" />
     </ItemGroup>
 
     <ItemGroup>

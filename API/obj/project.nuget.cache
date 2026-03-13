@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cDYBYj6IiF0=",
+  "dgSpecHash": "tzXXzhLVaZ0=",
   "success": true,
-  "projectFilePath": "D:\\dbi_kovalevsky\\MediaService\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\koval\\RiderProjects\\MediaService\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\9.0.13\\microsoft.aspnetcore.authentication.jwtbearer.9.0.13.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.13\\microsoft.entityframeworkcore.9.0.13.nupkg.sha512",
@@ -24,15 +24,5 @@
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.1\\system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "D:\\dbi_kovalevsky\\MediaService\\API\\API.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\dbi_kovalevsky\\MediaService\\API\\API.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

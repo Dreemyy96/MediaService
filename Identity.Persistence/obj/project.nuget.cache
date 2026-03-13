@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wzkmq0NWk2E=",
+  "dgSpecHash": "/GPJ+99bAZU=",
   "success": true,
-  "projectFilePath": "D:\\dbi_kovalevsky\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\koval\\RiderProjects\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.13\\microsoft.entityframeworkcore.9.0.13.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.13\\microsoft.entityframeworkcore.abstractions.9.0.13.nupkg.sha512",
