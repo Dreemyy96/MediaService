@@ -7,6 +7,5 @@ namespace ServiceLayer.Services.MediaService;
 
 public interface IMediaService
 {
-    public Task<ContentItemDto> GetPublishedMediaByIdAsync(Guid mediaId, Guid? userId,
-        CancellationToken cancellationToken);
+
 }

@@ -2,7 +2,6 @@
 
 public enum MediaStatus
 {
-    Processing,
     Published,
     Hidden,
     Deleted

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Media.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0e05cb760f47088cbc4d16ca7be5b3ce4cfa38f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c6c00dd2db151459e7979aa17d3b841fd02beff")]
 [assembly: System.Reflection.AssemblyProductAttribute("Media.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Media.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

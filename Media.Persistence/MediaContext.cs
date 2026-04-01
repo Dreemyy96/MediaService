@@ -16,4 +16,11 @@ public class MediaContext : DbContext
     public DbSet<UserMediaLike> UserMediaLike { get; set; }
     public DbSet<UserSavedMedia> UserSavedMedia { get; set; }
     public DbSet<UserViewHistory> UserViewHistory { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(MediaContext).Assembly);
+    }
 }
