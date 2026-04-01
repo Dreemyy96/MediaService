@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pR7gvZ3JjqE=",
+  "dgSpecHash": "HOpf4TEXnJ4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\koval\\RiderProjects\\MediaService\\Common.Models\\Common.Models.csproj",
+  "projectFilePath": "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\Common.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.9\\microsoft.aspnetcore.http.2.3.9.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",

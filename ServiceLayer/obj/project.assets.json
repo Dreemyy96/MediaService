@@ -1222,24 +1222,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\koval\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\koval\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koval\\RiderProjects\\MediaService\\ServiceLayer\\ServiceLayer.csproj",
+      "projectUniqueName": "D:\\dbi_kovalevsky\\MediaService\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
-      "projectPath": "C:\\Users\\koval\\RiderProjects\\MediaService\\ServiceLayer\\ServiceLayer.csproj",
+      "projectPath": "D:\\dbi_kovalevsky\\MediaService\\ServiceLayer\\ServiceLayer.csproj",
       "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\koval\\RiderProjects\\MediaService\\ServiceLayer\\obj\\",
+      "outputPath": "D:\\dbi_kovalevsky\\MediaService\\ServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1253,17 +1248,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\koval\\RiderProjects\\MediaService\\Common.Exception\\Common.Exception.csproj": {
-              "projectPath": "C:\\Users\\koval\\RiderProjects\\MediaService\\Common.Exception\\Common.Exception.csproj"
+            "D:\\dbi_kovalevsky\\MediaService\\Common.Exception\\Common.Exception.csproj": {
+              "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Common.Exception\\Common.Exception.csproj"
             },
-            "C:\\Users\\koval\\RiderProjects\\MediaService\\Common.Models\\Common.Models.csproj": {
-              "projectPath": "C:\\Users\\koval\\RiderProjects\\MediaService\\Common.Models\\Common.Models.csproj"
+            "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\Common.Models.csproj": {
+              "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Common.Models\\Common.Models.csproj"
             },
-            "C:\\Users\\koval\\RiderProjects\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj": {
-              "projectPath": "C:\\Users\\koval\\RiderProjects\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj"
+            "D:\\dbi_kovalevsky\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj": {
+              "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Identity.Persistence\\Identity.Persistence.csproj"
             },
-            "C:\\Users\\koval\\RiderProjects\\MediaService\\Media.Persistence\\Media.Persistence.csproj": {
-              "projectPath": "C:\\Users\\koval\\RiderProjects\\MediaService\\Media.Persistence\\Media.Persistence.csproj"
+            "D:\\dbi_kovalevsky\\MediaService\\Media.Persistence\\Media.Persistence.csproj": {
+              "projectPath": "D:\\dbi_kovalevsky\\MediaService\\Media.Persistence\\Media.Persistence.csproj"
             }
           }
         }
@@ -1278,7 +1273,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -1309,7 +1304,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\koval\\.dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

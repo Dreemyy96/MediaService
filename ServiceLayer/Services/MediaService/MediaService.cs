@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Common.Exception;
 using Common.Models.FileDTO;
 using Common.Models.Media;
+using Common.Models.ResponseModels;
 using Media.Persistence;
 using MediaCore.Enums;
 using MediaCore.Models;
@@ -72,23 +73,91 @@ public class MediaService : IMediaService
 
     public async Task<bool> UpdateAsync(UpdateMediaDTO mediaDTO, CancellationToken cancellationToken)
     {
+        ArgumentNullException.ThrowIfNull(mediaDTO);
+
         var media = await _mediaContext.Medias
             .Where(m => m.Id == mediaDTO.MediaId && !m.IsDeleted)
             .FirstOrDefaultAsync(cancellationToken).ConfigureAwait(false);
 
         if (media == null) throw new NotFoundException<ContentItem>("Media not found");
 
+        if (mediaDTO.UserId != media.AuthorId) return false;
+
         if (string.IsNullOrWhiteSpace(mediaDTO.Title)) media.Title = mediaDTO.Title;
         if (string.IsNullOrWhiteSpace(mediaDTO.Description)) media.Description = mediaDTO.Description;
 
         if (mediaDTO.Tags != null)
         {
-            var newTagIds = await _tagService.GetOrCreateAsync(mediaDTO.Tags, cancellationToken).ConfigureAwait(false);
-            var currentTagIds = media.MediaTags.Select(mt=>mt.TagId).ToList();
-            
+            var newTagIds = await _tagService.GetOrCreateAsync(mediaDTO.Tags, cancellationToken)
+                .ConfigureAwait(false);
+            var currentTagIds = media.MediaTags.Select(mt => mt.TagId).ToList();
+
             var tagsToAdd = newTagIds.Except(currentTagIds).ToList();
             var tagsToRemove = currentTagIds.Except(newTagIds).ToList();
-            
+
+            foreach (var tagId in tagsToAdd)
+            {
+                media.MediaTags.Add(new MediaTag
+                {
+                    MediaId = media.Id,
+                    TagId = tagId
+                });
+            }
+
+            media.MediaTags = media.MediaTags.Where(mt => !tagsToRemove.Contains(mt.TagId)).ToList();
         }
+
+        return await _mediaContext.SaveChangesAsync(cancellationToken).ConfigureAwait(false) > 0;
+    }
+
+    public async Task<MediaMetaInfoResponse> GetByIdAsync(Guid id, CancellationToken cancellationToken)
+    {
+        var media = await _mediaContext.Medias.FindAsync(id, cancellationToken)
+            .ConfigureAwait(false);
+        if (media == null) throw new NotFoundException<ContentItem>("Media not found");
+
+        var response = new MediaMetaInfoResponse
+        {
+            Id = media.Id,
+            AuthorId = media.AuthorId,
+            Title = media.Title,
+            Description = media.Description,
+            MediaType = media.MediaType,
+            Status = media.Status,
+            ViewCount = media.ViewCount,
+            LikesCount = media.LikesCount,
+            CommentsCount = media.CommentsCount,
+            CreatedAt = media.CreatedAt
+        };
+
+        var tagIds = media.MediaTags.Select(mt => mt.TagId).ToList();
+        response.MediaTags = await _mediaContext.Tags
+            .Where(t => tagIds.Contains(t.Id))
+            .Select(t => t.Name)
+            .ToListAsync(cancellationToken).ConfigureAwait(false);
+
+        return response;
+    }
+
+    public async Task<bool> HideMediaAsync(Guid id, CancellationToken cancellationToken)
+    {
+        var media = await _mediaContext.Medias.FindAsync(id, cancellationToken)
+            .ConfigureAwait(false);
+        if(media == null) throw new NotFoundException<ContentItem>("Media not found");
+        
+        media.Status = MediaStatus.Hidden;
+        return await _mediaContext.SaveChangesAsync(cancellationToken).ConfigureAwait(false) > 0;
+    }
+    
+    public async Task<bool> SoftDeleteAsync(Guid id, CancellationToken cancellationToken)
+    {
+        var media = await _mediaContext.Medias.FindAsync(id, cancellationToken)
+            .ConfigureAwait(false);
+        if(media == null) throw new NotFoundException<ContentItem>("Media not found");
+
+        media.Status = MediaStatus.Deleted;
+        media.IsDeleted = true;
+        
+        return await _mediaContext.SaveChangesAsync(cancellationToken).ConfigureAwait(false) > 0;
     }
 }

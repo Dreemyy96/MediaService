@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vtiu+2DRb8E=",
+  "dgSpecHash": "mdCqgStwwWA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\koval\\RiderProjects\\MediaService\\Media.Persistence\\Media.Persistence.csproj",
+  "projectFilePath": "D:\\dbi_kovalevsky\\MediaService\\Media.Persistence\\Media.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.13\\microsoft.entityframeworkcore.9.0.13.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.13\\microsoft.entityframeworkcore.abstractions.9.0.13.nupkg.sha512",

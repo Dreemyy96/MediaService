@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l6bJPasAdvI=",
+  "dgSpecHash": "6HCd+047MsM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\koval\\RiderProjects\\MediaService\\API\\API.csproj",
+  "projectFilePath": "D:\\dbi_kovalevsky\\MediaService\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\9.0.13\\microsoft.aspnetcore.authentication.jwtbearer.9.0.13.nupkg.sha512",
     "C:\\Users\\koval\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.9\\microsoft.aspnetcore.http.2.3.9.nupkg.sha512",
